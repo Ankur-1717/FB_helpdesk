@@ -1,0 +1,267 @@
+.conversationItem{
+    background: #fff !important;
+    border-bottom: 1px solid black !important;
+    padding: 12px !important;
+    cursor: pointer !important;
+    padding-left: 23px !important;
+}
+.checkBox{
+    display: flex;
+    justify-content: center;
+}
+.itemContent{
+    padding:10px !important;
+}
+.pl5{
+    padding-left:5px !important;
+    font-weight: 600 !important;
+}
+.containers{
+    background: rgba(255,255,255,255);
+    height : 100vh;
+    margin-top: 2px;
+}
+.conversationHeader{
+    display:flex;
+    justify-content: space-around;
+    align-items: end;
+    background-color:rgba(255,255,255,255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 47px;
+}
+
+.refreshBtn{
+    width: auto !important;
+    background-color: transparent;;
+}
+.chatUserName{
+    background-color: #fff !important;
+    padding-left:10px !important;
+    border-bottom: 1px dashed transparent !important;
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.profileImg{
+    height:100px !important;
+    width:125px !important;
+    border-radius: 50% !important;
+}
+.sectionTop{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 30px !important;
+    background-color: #fff !important;
+    margin:0px 2px !important;
+    border-radius: 5px !important;
+}
+.userDetails{
+    display: flex !important;
+    justify-content: center !important;
+}
+.userName{
+    text-align:center;
+}
+.userStatus{
+    font-weight: 600 !important;
+    font-size:1rem !important;
+    text-align: center;
+}
+.callBtn{
+    width: 100px !important;
+    background-color: transparent !important;
+    color : #000 !important;
+    border-radius: 5px;
+    border : 1px solid gray;
+    padding: 0px !important;
+    height:30px !important;
+    margin : 20px 10px !important;
+    border-color: rgba(232,232,232,255);
+}
+.profileBtn{
+    width: 100px !important;
+    background-color: transparent !important;
+    color : #000 !important;
+    border-radius: 5px;
+    border : 1px solid gray;
+    padding: 0px !important;
+    height:30px !important;
+    margin : 20px 10px !important;
+}
+.viewMoreBtn{
+    width: 150px !important;
+    background-color: transparent !important;
+    color : #1b1681 !important;
+    border-radius: 5px;
+    padding: 0px !important;
+    margin : 10px 0px !important;
+    font-weight: 500 !important;
+}
+.showLessBtn{
+        width: 100px !important;
+        background-color: transparent !important;
+        color : #1b1681 !important;
+        border-radius: 5px;
+        padding: 0px !important;
+        margin : 10px 0px !important;
+        font-weight: 500 !important;
+    
+}
+.customerDetails{
+    padding: 10px;
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin:20px 14px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.userChatsText{
+    /* background-color: rgba(255,255,255,255); */
+   display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   margin: 15px 0px !important;
+   border-radius: 5px !important;
+   text-align: right !important;
+   padding : 0px !important;
+}
+  
+  .timeStamp {
+    font-size: 0.8rem;
+    color: #666; 
+    margin-left: 10px; 
+  }
+  
+.customerChatsText{
+    /* background-color: rgba(255,255,255,255); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    margin:15px 0px !important;
+    border-radius: 5px !important;
+    padding : 0px !important;
+}
+.chatContainer{
+    background: rgba(246,246,246,255) !important;
+    /* border-radius : 15px !important; */
+    overflow-y:auto !important;
+    padding-left: 2px;
+}
+.msgDiv{
+    width : 570px !important;
+    position: absolute;
+    bottom : 30px;
+    margin-left:7px;
+}
+.msgInput{
+    border: 2px solid rgba(158,177,200,255);
+    padding: 5px 6px;
+    border-radius: 5px;
+    width: 100% !important;
+}
+.userChatsText img,
+.customerChatsText img {
+    /* margin-right: 10px;  */
+    flex-shrink: 0; 
+  }
+  
+  .userChatsText span,
+  .customerChatsText span {
+    background-color: #e6e6e6;
+    padding: 8px;
+    border-radius: 10px; 
+    word-wrap: break-word; 
+  }
+
+  .chatsIconUsers{
+    width:auto !important;
+    padding:0px !important;
+  }
+  .navIcon{
+    width:70px !important;
+    margin:auto !important;
+    margin-bottom : 20px !important;
+    padding-top: 19px;
+  }
+  .chatIconUsersImg{
+    height: 45px !important;
+    width: 50px !important;
+    padding:5px !important; 
+    border-radius : 50% !important; 
+  }
+  .currentConversation{
+    background: rgba(237,238,241,255) !important;
+  }
+  .userEmail{
+    word-wrap: break-word !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  .loaderImg{
+    display: flex;
+    justify-content: center;
+  }
+  .remove-paddings{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .icon1{
+    margin-bottom: 13px;
+    color: rgba(193,193,193,255);
+    width: 50px;
+    height: 21px;
+    
+  }
+  .icon2{
+
+    width: 109px !important;
+    height: 50px;
+    padding: 8px -1px !important;
+    color: rgba(15,78,151,255);
+    background-color: white;
+    margin: 0px 7px;
+  }
+  .icon3{
+    padding-top: 19px;
+    width: 46px !important;
+    height: 46px;
+    padding-left: 49px !important ;
+    color: #fff;
+  }
+  .icon4{
+
+  }
+  .row1{
+    display: flex !important;
+    margin-top: 22px !important;
+    padding-left: 50px !important;
+    cursor: pointer;
+  }
+  .span1{
+  border: 1.5px solid rgba(233,233,234,255);
+  color: rgba(123,123,123,255);
+  width: 86px !important ;
+  margin-right: 26px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .span2{
+    border: 1.5px solid rgba(233,233,234,255);
+    color: rgba(123,123,123,255);
+    width: 95px !important ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .callimage{
+color:rgba(167,167,167,255) ;
+margin-right: 6px;
+  }
+  .profileimage{
+color: rgba(94,96,100,255);
+margin-right: 6px;
+  }
+  .profilesection{
+    background-color: rgba(239,242,247,255);
+  }

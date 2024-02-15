@@ -1,0 +1,1 @@
+export const access_token = process.env.ACCESS_TOKEN;
